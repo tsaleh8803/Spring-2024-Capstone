@@ -7,6 +7,8 @@ mp_holistic = mp.solutions.holistic
 mp_pose = mp.solutions.pose
 cap = cv2.VideoCapture(0)
 
+#a
+
 def calculate_angle(a,b,c):
     a = np.array(a) # First
     b = np.array(b) # Mid
